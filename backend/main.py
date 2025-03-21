@@ -3,6 +3,7 @@ import hashlib
 import uvicorn
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+from jsondb import *
 
 app = FastAPI()
 DATA_FILE = "backend/data.json"
@@ -23,16 +24,9 @@ class LoginRequest(BaseModel):
     email: str
     password: str
 
-def load_data(file):
-    try:
-        with open(file, "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {"id": {}}
-
-def save_data(data, file):
-    with open(file, "w") as f:
-        json.dump(data, f, indent=4)
+@app.get("/")
+async def root():
+    return {"message": "Server running 😄"}
 
 @app.post("/register")
 async def register_user(request: RegisterRequest):
