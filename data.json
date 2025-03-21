@@ -1,4 +1,4 @@
-json_structure={"id":{
+{"id":{
     "132456789":{
         "name":"name",
         "email":"email",
