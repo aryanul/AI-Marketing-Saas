@@ -1,27 +1,14 @@
-{"id":{
-    "132456789":{
-        "name":"name",
-        "email":"email",
-        "phone":"phone",
-        "Company":"company",
-        "website":"website",
-        "category":"category",
-        "description":"description",
-        "Comp_scale":"comp_scale",
-        "products":{
-            "product1":{
-                "name":"product1",
-                "price":"price1",
-                "category":"category1",
-                "description":"description1"
-            },
-            "product2":{
-                "name":"product2",
-                "price":"price2",
-                "category":"category2",
-                "description":"description2"
-            }
+{
+    "id": {
+        "63b1a5c853de1fe0b030358c89a634cf726bb38b20e4571670c66692982d312c": {
+            "name": "string",
+            "email": "edfa",
+            "phone": "string",
+            "company": "string",
+            "website": "string",
+            "category": "string",
+            "description": "string",
+            "comp_scale": "string"
         }
     }
-}
 }
