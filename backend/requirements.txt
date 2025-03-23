@@ -6,3 +6,4 @@ tldextract
 python-whois
 dotenv
 pydantic
+google-generativeai
