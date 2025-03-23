@@ -18,7 +18,7 @@ app.add_middleware(
 )
 
 DATA_FILE = "data.json"
-AUTH_FILE = "backend/auth.json"
+AUTH_FILE = "auth.json"
 
 class RegisterRequest(BaseModel):
     name: str
