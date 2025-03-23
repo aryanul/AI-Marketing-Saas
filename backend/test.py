@@ -7,10 +7,17 @@ from jsondb import *
 import requests
 import json
 import re  # Import regex module
+import os
+import dotenv
 
 
 
-SERPER_API_KEY = "bf343c0f60a9b2ebd861b1770f1d791c6b453372"
+dotenv.load_dotenv()
+
+# Get API keys from environment variables
+SERPER_API_KEY = os.getenv("SERPER_API_KEY")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+
 
 def get_website_analytics(url):
     analytics = {"url": url}
@@ -129,7 +136,7 @@ def get_keyword_analysis(keyword, country="us"):
 import google.generativeai as genai
 
 # Set up Gemini API Key
-API_KEY = "AIzaSyDrT3lGKNblAHPy2MX-LVVuF2P5lngqo-8"  # Replace with your actual API key
+API_KEY = GEMINI_API_KEY  # Replace with your actual API key
 genai.configure(api_key=API_KEY)
 
 # Initialize Gemini Model
