@@ -206,7 +206,7 @@ def load_influencer_data(file_path):
         return json.load(file)
 
 # Function to filter influencers based on category & budget and return full details
-def get_influencers(category, budget, file_path="backend/inf.json"):
+def get_influencers(category, budget, file_path="inf.json"):
     data = load_influencer_data(file_path)
 
     # Ensure the category exists in the data
