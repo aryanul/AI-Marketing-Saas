@@ -214,3 +214,143 @@ footer {
         display: block;
     }
 }
+/* 🔹 Modal Background (Blur Effect) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(8px); /* 🔥 Blurred background */
+    background-color: rgba(0, 0, 0, 0.4); /* Slightly darker overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🔹 Enlarged Modal Content */
+.modal-content {
+    background: #222;
+    padding: 40px; /* Increased padding */
+    border-radius: 15px;
+    width: 550px;  /* Increased width */
+    height: 320px; /* Increased height */
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* 🔹 Close Button (X) */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    color: white;
+}
+
+.close:hover {
+    color: #ff4d4d;
+}
+
+/* 🔹 Modal Box (Internal Structure) */
+.modal-box {
+    display: flex;
+    gap: 25px; /* Increased spacing */
+    justify-content: center;
+    align-items: center;
+}
+
+/* 🔹 Each Section Inside Modal */
+.modal-section {
+    flex: 1;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    min-width: 200px; /* Ensures equal width */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px; /* Forces equal height */
+}
+
+/* 🔹 Ensures heading alignment */
+.modal-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* 🔹 Text inside modal */
+.modal-section p {
+    font-size: 14px;
+    height: 40px; /* Fixes different text lengths */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* 🔹 Buttons */
+.modal-btn {
+    width: 85%;
+    padding: 12px;
+    margin-top: auto; /* Ensures buttons are always at the bottom */
+    background: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s;
+    text-align: center;
+    font-size: 15px;
+}
+
+.modal-btn:hover {
+    background: #0056b3;
+}
+
+/* 🔹 Modal Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 🔹 Responsive Fix for Smaller Screens */
+@media (max-width: 600px) {
+    .modal-content {
+        width: 90%;
+        height: auto;
+        flex-direction: column;
+        gap: 15px;
+        padding: 30px;
+    }
+
+    .modal-box {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .modal-section {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+
+    .modal-btn {
+        width: 100%;
+    }
+}
+

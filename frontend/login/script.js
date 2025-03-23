@@ -7,22 +7,33 @@ document.addEventListener("DOMContentLoaded", function () {
         const email = document.getElementById("email").value;
         const password = document.getElementById("password").value;
 
-        const response = await fetch("https://rzxdgzgt-8000.inc1.devtunnels.ms/login", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ email, password }),
-        });
+        try {
+            const response = await fetch("https://ai-marketing-saas.onrender.com/login", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+                body: JSON.stringify({ email, password }),
+            });
 
-        const data = await response.json();
+            const data = await response.json();
 
-        if (response.ok) {
-            alert("Login successful!");
-            localStorage.setItem("token", data.token); // Store JWT token if API returns one
-            window.location.href ="/dashboard/"; // Redirect to dashboard
-        } else {
-            alert("Login failed: " + data.message);
+            if (response.ok) {
+                alert("Login successful!");
+
+                // Store email and token in local storage
+                localStorage.setItem("userId", data.email);
+                if (data.token) {
+                    localStorage.setItem("token", data.token);
+                }
+
+                window.location.href = "/dashboard/"; // Redirect to dashboard
+            } else {
+                alert("Login failed: " + data.message);
+            }
+        } catch (error) {
+            alert("An error occurred. Please try again.");
+            console.error(error);
         }
     });
 });

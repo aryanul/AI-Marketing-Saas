@@ -8,55 +8,56 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1>Marketing Analytics Dashboard</h1>
+        <button class="add-product-btn">➕ Add Product</button>
+    </nav>
+
+    <!-- Main Dashboard Container -->
     <div class="dashboard-container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="logo">CORE PANEL</div>
-            <ul class="menu">
-                <li class="active">Dashboard</li>
-                <li>Products</li>
-                <li>Clients</li>
-                <li>Analytics</li>
-                <li>Messages</li>
-                <li>Settings</li>
-            </ul>
-            <button class="upgrade-btn">Upgrade Now</button>
-        </aside>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <header class="header">
-                <h2>Hello Olivia, Welcome back!</h2>
-                <div class="profile">
-                    <span>My Account</span>
-                    <img src="profile.jpg" alt="User">
+        <!-- Company Info & Keyword Difficulty -->
+        <div class="company-info">
+            <div class="company-details">
+                <h2 id="company-name"></h2>
+                <p id="company-website"></p>
+            </div>
+            <div class="keyword-difficulty">
+                <p>Keyword Difficulty</p>
+                <div class="circle-progress">
+                    <span id="keyword-score">0</span>%
                 </div>
-            </header>
+            </div>
+        </div>
 
-            <!-- Stats Overview -->
-            <section class="stats-grid">
-                <div class="stat-card">
-                    <h3>Total Revenue</h3>
-                    <p>$52,000</p>
-                    <span class="green-text">+8.33% from last week</span>
-                </div>
-                <div class="stat-card">
-                    <h3>Conversion Rate</h3>
-                    <p>3.5%</p>
-                    <span class="green-text">+16.67% from last week</span>
-                </div>
-                <div class="stat-card">
-                    <h3>Subscribers</h3>
-                    <p>650</p>
-                    <span class="green-text">+12% from last week</span>
-                </div>
-            </section>
+        <!-- SEO, Word Count & Link Count Progress Bars -->
+        <div class="progress-bars">
+            <div class="progress-item">
+                <p>SEO Score</p>
+                <div class="progress-bar"><div id="seo-score"></div></div>
+                <span id="seo-value">0</span>/100
+            </div>
+            <div class="progress-item">
+                <p>Word Count</p>
+                <div class="progress-bar"><div id="word-count"></div></div>
+                <span id="word-value">0</span>
+            </div>
+            <div class="progress-item">
+                <p>Link Count</p>
+                <div class="progress-bar"><div id="link-count"></div></div>
+                <span id="link-value">0</span>
+            </div>
+        </div>
 
-            <!-- Charts -->
-            <section class="charts">
-                <canvas id="revenueChart"></canvas>
-            </section>
-        </main>
+        <!-- Products Section -->
+        <h2>Products</h2>
+        <div class="products-container" id="products-container"></div>
+
+        <!-- Chart for Budget Comparison -->
+        <canvas id="budgetChart"></canvas>
+
     </div>
 
     <script src="script.js"></script>
