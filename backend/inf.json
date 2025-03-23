@@ -1,0 +1,342 @@
+{
+    "Influencers": {
+        "Technology": {
+            "mkbhd": {
+                "name": "Marques Brownlee",
+                "bio": "Tech videos, reviews, and impressions.",
+                "followers": "4.7M",
+                "following": "400",
+                "posts": "1,500",
+                "photo": "https://example.com/mkbhd.jpg",
+                "link": "https://www.instagram.com/mkbhd/",
+                "email": "contact@mkbhd.com",
+                "budget_min": "$10,000",
+                "budget_max": "$50,000"
+            },
+            "linustech": {
+                "name": "Linus Sebastian",
+                "bio": "Founder of Linus Tech Tips. Tech reviews and tutorials.",
+                "followers": "1.2M",
+                "following": "200",
+                "posts": "2,000",
+                "photo": "https://example.com/linustech.jpg",
+                "link": "https://www.instagram.com/linustech/",
+                "email": "linus@linustechtips.com",
+                "budget_min": "$8,000",
+                "budget_max": "$40,000"
+            },
+            "saradietschy": {
+                "name": "Sara Dietschy",
+                "bio": "Tech and creative entrepreneur. Host of 'That Creative Life' podcast.",
+                "followers": "500K",
+                "following": "300",
+                "posts": "1,100",
+                "photo": "https://example.com/saradietschy.jpg",
+                "link": "https://www.instagram.com/saradietschy/",
+                "email": "sara@saradietschy.com",
+                "budget_min": "$5,000",
+                "budget_max": "$25,000"
+            }
+        },
+        "E-commerce": {
+            "thebudgetnista": {
+                "name": "Tiffany Aliche",
+                "bio": "Financial educator and author. Empowering women to achieve financial freedom.",
+                "followers": "600K",
+                "following": "500",
+                "posts": "2,300",
+                "photo": "https://example.com/thebudgetnista.jpg",
+                "link": "https://www.instagram.com/thebudgetnista/",
+                "email": "tiffany@thebudgetnista.com",
+                "budget_min": "$6,000",
+                "budget_max": "$30,000"
+            },
+            "garyvee": {
+                "name": "Gary Vaynerchuk",
+                "bio": "Entrepreneur, author, speaker, and internet personality.",
+                "followers": "9M",
+                "following": "6,500",
+                "posts": "7,000",
+                "photo": "https://example.com/garyvee.jpg",
+                "link": "https://www.instagram.com/garyvee/",
+                "email": "gary@vaynermedia.com",
+                "budget_min": "$20,000",
+                "budget_max": "$100,000"
+            },
+            "gretta": {
+                "name": "Gretta van Riel",
+                "bio": "Serial entrepreneur and startup mentor. Founder of multiple e-commerce brands.",
+                "followers": "200K",
+                "following": "1,000",
+                "posts": "1,800",
+                "photo": "https://example.com/gretta.jpg",
+                "link": "https://www.instagram.com/gretta/",
+                "email": "gretta@grettavanriel.com",
+                "budget_min": "$4,000",
+                "budget_max": "$20,000"
+            }
+        },
+        "Healthcare": {
+            "drmiami": {
+                "name": "Dr. Michael Salzhauer",
+                "bio": "Board-certified plastic surgeon. Snapchats surgeries daily.",
+                "followers": "1.3M",
+                "following": "1,200",
+                "posts": "3,500",
+                "photo": "https://example.com/drmiami.jpg",
+                "link": "https://www.instagram.com/drmiami/",
+                "email": "drmiami@balbody.com",
+                "budget_min": "$12,000",
+                "budget_max": "$60,000"
+            },
+            "doctor.mike": {
+                "name": "Dr. Mikhail Varshavski",
+                "bio": "Family medicine doctor. Bridging the gap between medical and pop culture.",
+                "followers": "4.5M",
+                "following": "500",
+                "posts": "1,200",
+                "photo": "https://example.com/doctormike.jpg",
+                "link": "https://www.instagram.com/doctor.mike/",
+                "email": "contact@doctormikemedia.com",
+                "budget_min": "$15,000",
+                "budget_max": "$75,000"
+            },
+            "nurse.blake": {
+                "name": "Blake Lynch",
+                "bio": "Nurse and comedian. Sharing the lighter side of nursing.",
+                "followers": "1M",
+                "following": "700",
+                "posts": "2,100",
+                "photo": "https://example.com/nurseblake.jpg",
+                "link": "https://www.instagram.com/nurse.blake/",
+                "email": "blake@nurseblake.com",
+                "budget_min": "$10,000",
+                "budget_max": "$50,000"
+            }
+        },
+        "Education": {
+            "nasdaily": {
+                "name": "Nuseir Yassin",
+                "bio": "I make videos about the world. Founder of Nas Academy.",
+                "followers": "2.5M",
+                "following": "100",
+                "posts": "1,000",
+                "photo": "https://example.com/nasdaily.jpg",
+                "link": "https://www.instagram.com/nasdaily/",
+                "email": "nas@nasdaily.com",
+                "budget_min": "$14,000",
+                "budget_max": "$70,000"
+            },
+            "thekingofrandom": {
+                "name": "Grant Thompson",
+                "bio": "Bringing random projects to life. Let's make something awesome!",
+                "followers": "400K",
+                "following": "50",
+                "posts": "500",
+                "photo": "https://example.com/thekingofrandom.jpg",
+                "link": "https://www.instagram.com/thekingofrandom/",
+                "email": "contact@thekingofrandom.com",
+                "budget_min": "$3,000",
+                "budget_max": "$15,000"
+            },
+            "asapscience": {
+                "name": "Mitchell Moffit & Gregory Brown",
+                "bio": "Your weekly dose of fun and interesting science.",
+                "followers": "1.1M",
+                "following": "300",
+                "posts": "600",
+                "photo": "https://example.com/asapscience.jpg",
+                "link": "https://www.instagram.com/asapscience/",
+                "email": "info@asapscience"
+            }
+        },
+        "Marketing": {
+            "neilpatel": {
+                "name": "Neil Patel",
+                "bio": "Co-founder of Neil Patel Digital. Helping you get more traffic.",
+                "followers": "1M",
+                "following": "7",
+                "posts": "2,500",
+                "photo": "https://example.com/neilpatel.jpg",
+                "link": "https://www.instagram.com/neilpatel/",
+                "email": "neil@neilpatel.com",
+                "budget_min": "$15,000",
+                "budget_max": "$50,000"
+            },
+            "garyvee": {
+                "name": "Gary Vaynerchuk",
+                "bio": "Entrepreneur, author, speaker, and internet personality.",
+                "followers": "9M",
+                "following": "6,500",
+                "posts": "7,000",
+                "photo": "https://example.com/garyvee.jpg",
+                "link": "https://www.instagram.com/garyvee/",
+                "email": "gary@vaynermedia.com",
+                "budget_min": "$20,000",
+                "budget_max": "$100,000"
+            },
+            "amyporterfield": {
+                "name": "Amy Porterfield",
+                "bio": "Online marketing expert. Helping entrepreneurs build their business.",
+                "followers": "200K",
+                "following": "500",
+                "posts": "1,000",
+                "photo": "https://example.com/amyporterfield.jpg",
+                "link": "https://www.instagram.com/amyporterfield/",
+                "email": "support@amyporterfield.com",
+                "budget_min": "$10,000",
+                "budget_max": "$40,000"
+            }
+        },
+        "Real Estate": {
+            "thejoshaltman": {
+                "name": "Josh Altman",
+                "bio": "Luxury real estate agent. Star of Million Dollar Listing.",
+                "followers": "1.2M",
+                "following": "1,000",
+                "posts": "3,000",
+                "photo": "https://example.com/thejoshaltman.jpg",
+                "link": "https://www.instagram.com/thejoshaltman/",
+                "email": "info@thealtmanbrothers.com",
+                "budget_min": "$25,000",
+                "budget_max": "$100,000"
+            },
+            "barbaracorcoran": {
+                "name": "Barbara Corcoran",
+                "bio": "Real estate mogul. Shark on Shark Tank.",
+                "followers": "800K",
+                "following": "300",
+                "posts": "1,500",
+                "photo": "https://example.com/barbaracorcoran.jpg",
+                "link": "https://www.instagram.com/barbaracorcoran/",
+                "email": "barbara@corcoran.com",
+                "budget_min": "$20,000",
+                "budget_max": "$80,000"
+            },
+            "ryanserhant": {
+                "name": "Ryan Serhant",
+                "bio": "Real estate broker. Star of Million Dollar Listing New York.",
+                "followers": "1.5M",
+                "following": "500",
+                "posts": "2,000",
+                "photo": "https://example.com/ryanserhant.jpg",
+                "link": "https://www.instagram.com/ryanserhant/",
+                "email": "info@serhant.com",
+                "budget_min": "$30,000",
+                "budget_max": "$120,000"
+            }
+        },
+        "Hospitality": {
+            "alfredosbarulli": {
+                "name": "Alfredo Salvatore Barulli",
+                "bio": "Italian entrepreneur and digital media influencer in luxury hospitality.",
+                "followers": "500K",
+                "following": "300",
+                "posts": "1,200",
+                "photo": "https://example.com/alfredosbarulli.jpg",
+                "link": "https://www.instagram.com/alfredosbarulli/",
+                "email": "alfredo@10xexperts.com",
+                "budget_min": "$10,000",
+                "budget_max": "$50,000"
+            },
+            "thepointsguy": {
+                "name": "Brian Kelly",
+                "bio": "Travel and credit card rewards expert.",
+                "followers": "700K",
+                "following": "600",
+                "posts": "2,500",
+                "photo": "https://example.com/thepointsguy.jpg",
+                "link": "https://www.instagram.com/thepointsguy/",
+                "email": "brian@thepointsguy.com",
+                "budget_min": "$15,000",
+                "budget_max": "$60,000"
+            },
+            "melissahie": {
+                "name": "Melissa Hie",
+                "bio": "Travel blogger exploring the world one snack at a time.",
+                "followers": "300K",
+                "following": "400",
+                "posts": "1,800",
+                "photo": "https://example.com/melissahie.jpg",
+                "link": "https://www.instagram.com/melissahie/",
+                "email": "melissa@girleatworld.net",
+                "budget_min": "$8,000",
+                "budget_max": "$35,000"
+            }
+        },
+        "Entertainment": {
+            "therock": {
+                "name": "Dwayne Johnson",
+                "bio": "Actor, producer, and former professional wrestler.",
+                "followers": "250M",
+                "following": "450",
+                "posts": "5,000",
+                "photo": "https://example.com/therock.jpg",
+                "link": "https://www.instagram.com/therock/",
+                "email": "contact@sevenbucks.com",
+                "budget_min": "$100,000",
+                "budget_max": "$1,000,000"
+            },
+            "selenagomez": {
+                "name": "Selena Gomez",
+                "bio": "Singer, actress, and producer.",
+                "followers": "240M",
+                "following": "200",
+                "posts": "1,600",
+                "photo": "https://example.com/selenagomez.jpg",
+                "link": "https://www.instagram.com/selenagomez/",
+                "email": "management@selenagomez.com",
+                "budget_min": "$90,000",
+                "budget_max": "$900,000"
+            },
+            "kevinhart4real": {
+                "name": "Kevin Hart",
+                "bio": "Comedian and actor.",
+                "followers": "120M",
+                "following": "700",
+                "posts": "4,500",
+                "photo": "https://example.com/kevinhart4real.jpg",
+                "link": "https://www.instagram.com/kevinhart4real/",
+                "email": "kevin@hart"
+            }
+        },
+        "Manufacturing": {
+            "titan.gilroy": {
+                "name": "Titan Gilroy",
+                "bio": "CEO of TITANS of CNC. Dedicated to transforming the manufacturing industry through education and innovation.",
+                "followers": "200K",
+                "following": "500",
+                "posts": "1,200",
+                "photo": "https://www.instagram.com/titan.gilroy/profile_pic",
+                "link": "https://www.instagram.com/titan.gilroy/",
+                "email": "info@titansofcnc.com",
+                "budget_min": "$10,000",
+                "budget_max": "$50,000"
+            },
+            "themanufacturingmillennial": {
+                "name": "Jake Hall",
+                "bio": "Advocate for advanced manufacturing and automation. Passionate about attracting millennials to the manufacturing sector.",
+                "followers": "50K",
+                "following": "300",
+                "posts": "800",
+                "photo": "https://www.instagram.com/themanufacturingmillennial/profile_pic",
+                "link": "https://www.instagram.com/themanufacturingmillennial/",
+                "email": "jakehall@gmail.com",
+                "budget_min": "$5,000",
+                "budget_max": "$25,000"
+            },
+            "justin_waller_": {
+                "name": "Justin Waller",
+                "bio": "Entrepreneur and influencer in the steel construction industry. Sharing insights on business and manufacturing.",
+                "followers": "1M",
+                "following": "1,000",
+                "posts": "900",
+                "photo": "https://www.instagram.com/justin_waller_/profile_pic",
+                "link": "https://www.instagram.com/justin_waller_/",
+                "email": "contact@jwaller.com",
+                "budget_min": "$20,000",
+                "budget_max": "$100,000"
+            }
+        }
+    }
+}

@@ -1,0 +1,605 @@
+{
+    "search_metadata": {
+        "id": "67de9d1b9c0a8fca10059597",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/49ff65c29d804058/67de9d1b9c0a8fca10059597.json",
+        "created_at": "2025-03-22 11:20:59 UTC",
+        "processed_at": "2025-03-22 11:20:59 UTC",
+        "google_url": "https://www.google.com/search?q=b2b+marketing&oq=b2b+marketing&gl=in&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/49ff65c29d804058/67de9d1b9c0a8fca10059597.html",
+        "total_time_taken": 1.41
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "b2b marketing",
+        "google_domain": "google.com",
+        "gl": "in",
+        "device": "desktop"
+    },
+    "search_information": {
+        "query_displayed": "b2b marketing",
+        "total_results": 475000000,
+        "time_taken_displayed": 0.31,
+        "organic_results_state": "Results for exact spelling"
+    },
+    "knowledge_graph": {
+        "title": "Business marketing",
+        "entity_type": "related_questions",
+        "kgmid": "/m/0bvyy7",
+        "knowledge_graph_search_link": "https://www.google.com/search?kgmid=/m/0bvyy7&hl=en-IN&q=Business+marketing",
+        "serpapi_knowledge_graph_search_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&hl=en-IN&kgmid=%2Fm%2F0bvyy7&q=Business+marketing",
+        "description": "B2B marketing, or business-to-business marketing, focuses on promoting products or services to other businesses, rather than end consumers, emphasizing building trust, addressing operational challenges, and driving measurable outcomes for companies.",
+        "description_highlighted_words": [
+            "focuses on promoting products or services to other businesses, rather than end consumers, emphasizing building trust, addressing operational challenges, and driving measurable outcomes for companies"
+        ],
+        "web_results": [
+            {
+                "title": "MoreLess",
+                "link": "https://en.wikipedia.org/wiki/Business_marketing"
+            }
+        ]
+    },
+    "inline_videos": [
+        {
+            "position": 1,
+            "title": "The Best B2B Marketing Strategies for 2025",
+            "link": "https://www.youtube.com/watch?v=K20wkOv4Jds",
+            "thumbnail": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/2481ce61a7aece2548e8e0b2dffa872bd8377bf0d81383f708ae5432f5f45843.jpeg",
+            "channel": "Exposure Ninja",
+            "duration": "20:40",
+            "platform": "YouTube",
+            "key_moments": [
+                {
+                    "time": "00:00",
+                    "title": "Intro",
+                    "link": "https://www.youtube.com/watch?v=K20wkOv4Jds&t=0",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIzPxXA7mfhG_ypMjsYIcQb0DKEeiF-3T_pPXvVshyJw&s"
+                },
+                {
+                    "time": "00:53",
+                    "title": "The Decision Maker Mindset",
+                    "link": "https://www.youtube.com/watch?v=K20wkOv4Jds&t=53",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMdqieMuj4OIV-ktG0pjKJ2O0UU5VHlZXdas4TcVMRzg&s"
+                },
+                {
+                    "time": "04:07",
+                    "title": "Helpful Content Marketing",
+                    "link": "https://www.youtube.com/watch?v=K20wkOv4Jds&t=247",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg3NLZgdVbkXj1o12ipwk0pbNuEDATrQ6HCE20lQDRVw&s"
+                },
+                {
+                    "time": "12:32",
+                    "title": "Repurposing",
+                    "link": "https://www.youtube.com/watch?v=K20wkOv4Jds&t=752",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0BfjfmVUzzcpqP8I2vuOwsedzhhcvosrhG0-TpfHepw&s"
+                },
+                {
+                    "time": "14:43",
+                    "title": "Thought Leadership",
+                    "link": "https://www.youtube.com/watch?v=K20wkOv4Jds&t=883",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBfT6kcMua5lzQLlNErRTvG2Gtg-VBI_zpVS8575rrxQ&s"
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "title": "The Best B2B Marketing Strategies (That Actually Work)",
+            "link": "https://www.youtube.com/watch?v=rz5jF12guyY",
+            "thumbnail": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/2481ce61a7aece2594038f7581e6bacf7d4444272b171e9214a4c9e01071b669.jpeg",
+            "channel": "Exposure Ninja",
+            "duration": "19:13",
+            "platform": "YouTube"
+        },
+        {
+            "position": 3,
+            "title": "Best B2B Marketing Strategies 2025 | How To Increase B2B ...",
+            "link": "https://www.youtube.com/watch?v=EOhUdcmIzrg",
+            "thumbnail": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/2481ce61a7aece256b267d9ba7cd294349300e85966eb315537be995601ad38f.jpeg",
+            "channel": "Simplilearn",
+            "duration": "16:00",
+            "platform": "YouTube",
+            "key_moments": [
+                {
+                    "time": "00:00",
+                    "title": "Introduction to B2B Marketing",
+                    "link": "https://www.youtube.com/watch?v=EOhUdcmIzrg&t=0",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTynsFfA4BiPOJ7JuUSIl0MGoasvvxgiaDuiNIIyVWmDw&s"
+                },
+                {
+                    "time": "02:45",
+                    "title": "B2B Marketing Strategies ( Phases)",
+                    "link": "https://www.youtube.com/watch?v=EOhUdcmIzrg&t=165",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSK_Y9_yrAJER0hvtGWrPLSZqKfJSLyhlCki2OnWKyjOg&s"
+                },
+                {
+                    "time": "09:41",
+                    "title": "B2B Marketing Tactics Vs Strategies",
+                    "link": "https://www.youtube.com/watch?v=EOhUdcmIzrg&t=581",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5n0s87wdAozcrnSqlSZONar2lNwgSSQ1AXjl-q3MCXQ&s"
+                },
+                {
+                    "time": "10:57",
+                    "title": "B2B Marketing Examples and Best Practices",
+                    "link": "https://www.youtube.com/watch?v=EOhUdcmIzrg&t=657",
+                    "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGCWOXMqRjzvUNAXGA6lGMbvin6QNRdCq3l7TVRUyOYQ&s"
+                }
+            ]
+        }
+    ],
+    "related_questions": [
+        {
+            "question": "What does B2B mean in marketing?",
+            "snippet": "B2B marketing, or business-to-business marketing, refers to the process of one business informing another business about a product or service. The goal of B2B marketing is for a seller to communicate with decision-makers at an organization, rather than the end consumer. Register to advertise.",
+            "title": "business-to-business marketing",
+            "link": "https://advertising.amazon.com/library/guides/b2b-marketing#:~:text=B2B%20marketing%2C%20or%20business%2Dto,Register%20to%20advertise",
+            "displayed_link": "https://advertising.amazon.com \u203a library \u203a guides \u203a b2b...",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIEIyQiBtZWFuIGluIG1hcmtldGluZz8iLCJsayI6IkdoOTNhR0YwSUdSdlpYTWdZakppSUcxbFlXNGdhVzRnYldGeWEyVjBhVzVuIiwiYnMiOiJjLVB5NEZJSXowZ3NVVWpKVHkxV2NESnlVc2hOVGN4VHlNeFR5RTBzeWs0dHljeEx0NWRZNDJta0tDVmZEbGVXWkpTRXFZekxuVXNOYkZKaVVhcENTVWFxZ29sQ1NXVUJVSFYtR3NSY2hIbjdiWTJrcENTUTVNRUd3ZzN5NGxJQkc1UlpyQUMwSTdVaU1iY2dKeFdMTVZzWWplU2xaTXVoU2xITWdPbmlDb0NhQlhPVXVVS0FPalluVFMwMVVwVlNMa2RWV3FDTzZUb0JSZ0EiLCJpZCI6ImZjX0c1M2VaOHVaSE5XWHdia1BwLVBoZ1FNXzEifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBkb2VzIEIyQiBtZWFuIGluIG1hcmtldGluZz8iLCJsayI6IkdoOTNhR0YwSUdSdlpYTWdZakppSUcxbFlXNGdhVzRnYldGeWEyVjBhVzVuIiwiYnMiOiJjLVB5NEZJSXowZ3NVVWpKVHkxV2NESnlVc2hOVGN4VHlNeFR5RTBzeWs0dHljeEx0NWRZNDJta0tDVmZEbGVXWkpTRXFZekxuVXNOYkZKaVVhcENTVWFxZ29sQ1NXVUJVSFYtR3NSY2hIbjdiWTJrcENTUTVNRUd3ZzN5NGxJQkc1UlpyQUMwSTdVaU1iY2dKeFdMTVZzWWplU2xaTXVoU2xITWdPbmlDb0NhQlhPVXVVS0FPalluVFMwMVVwVlNMa2RWV3FDTzZUb0JSZ0EiLCJpZCI6ImZjX0c1M2VaOHVaSE5XWHdia1BwLVBoZ1FNXzEifQ%3D%3D"
+        },
+        {
+            "question": "What are the 4 types of B2B marketing?",
+            "snippet": "The Four B2B Market Categories We can categorise these markets into four broad categories: producers, resellers, governments, and institutions.",
+            "title": "What are the Four Types of B2B Markets? - The Ortus Club",
+            "date": "15 May 2023",
+            "link": "https://www.ortusclub.com/what-are-the-four-types-of-b2b-markets/#:~:text=The%20Four%20B2B%20Market%20Categories,resellers%2C%20governments%2C%20and%20institutions.",
+            "displayed_link": "https://www.ortusclub.com \u203a what-are-the-four-types-of-...",
+            "source_logo": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/5b886401e0e9ff83e4da76d52a8ac060bfd681443040db377dd208a288bd6ab3.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDQgdHlwZXMgb2YgQjJCIG1hcmtldGluZz8iLCJsayI6IkdoZzBJSFI1Y0dWeklHOW1JR0l5WWlCdFlYSnJaWFJwYm1jIiwiYnMiOiJjLVB5NEZJSXowZ3NVVWpKVHkxV2NESnlVc2hOVGN4VHlNeFR5RTBzeWs0dHljeEx0NWRZNDJta0tDVmZEbGVXWkpTRXFZekxuVXNOYkZKaVVhcENTVWFxZ29sQ1NXVUJVSFYtR3NSY2hIbjdiWTJrcENTUTVNRUd3ZzN5NGxJQkc1UlpyQUMwSTdVaU1iY2dKeFdMTVZzWWplU2xaTXVoU2xITWdPbmlDb0NhQlhPVXVVS0FPalluVFMwMVVwVlNMa2RWV3FDTzZUb0JSZ0EiLCJpZCI6ImZjX0c1M2VaOHVaSE5XWHdia1BwLVBoZ1FNXzEifQ==",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDQgdHlwZXMgb2YgQjJCIG1hcmtldGluZz8iLCJsayI6IkdoZzBJSFI1Y0dWeklHOW1JR0l5WWlCdFlYSnJaWFJwYm1jIiwiYnMiOiJjLVB5NEZJSXowZ3NVVWpKVHkxV2NESnlVc2hOVGN4VHlNeFR5RTBzeWs0dHljeEx0NWRZNDJta0tDVmZEbGVXWkpTRXFZekxuVXNOYkZKaVVhcENTVWFxZ29sQ1NXVUJVSFYtR3NSY2hIbjdiWTJrcENTUTVNRUd3ZzN5NGxJQkc1UlpyQUMwSTdVaU1iY2dKeFdMTVZzWWplU2xaTXVoU2xITWdPbmlDb0NhQlhPVXVVS0FPalluVFMwMVVwVlNMa2RWV3FDTzZUb0JSZ0EiLCJpZCI6ImZjX0c1M2VaOHVaSE5XWHdia1BwLVBoZ1FNXzEifQ%3D%3D"
+        },
+        {
+            "question": "What is an example of B2B marketing?",
+            "snippet": null,
+            "title": "AI Overview",
+            "link": "https://support.google.com/websearch?p=ai_overviews&hl=en-IN",
+            "list": [
+                "Business-to-Business: B2B marketing focuses on companies selling to other companies, not individual consumers.\u00a0 ",
+                "Target Audience: The target audience consists of decision-makers, purchasing managers, or departments within a company.\u00a0 ",
+                "Goal: The primary goal is to attract and convert leads into customers by showcasing the value of a product or service.\u00a0 ",
+                "Software Companies: Companies like Salesforce, HubSpot, and Okta market their software solutions to other businesses.\u00a0 ",
+                "Industrial Suppliers: Manufacturers of industrial equipment or raw materials targeting businesses in sectors like manufacturing or construction.\u00a0 ",
+                "Commercial Construction: Companies specializing in building out office spaces for other businesses, such as law firms or technology companies.\u00a0 ",
+                "B2B Content Marketing: Creating and distributing valuable content, such as blog posts, white papers, and case studies, to educate and engage potential business clients.\u00a0 ",
+                "B2B Email Marketing: Using email campaigns to target and engage with potential business clients.\u00a0 ",
+                "B2B Social Media Marketing: Utilizing social media platforms to promote content, engage with prospects, and build relationships.\u00a0 ",
+                "B2B Influencer Marketing: Collaborating with industry influencers to promote products or services to other businesses.\u00a0 ",
+                "B2B Search Engine Optimization (SEO): Optimizing websites and content to rank higher in search engine results pages (SERPs) and attract organic traffic.\u00a0 ",
+                "B2B Referral Marketing: Encouraging existing customers to refer new business opportunities.\u00a0 "
+            ],
+            "displayed_link": null,
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBhbiBleGFtcGxlIG9mIEIyQiBtYXJrZXRpbmc/IiwibGsiOiJHaDEzYUdGMElHbHpJR0l5WWlCdFlYSnJaWFJwYm1jZ1pYaGhiWEJzWlEiLCJicyI6ImMtUHk0RklJejBnc1VVakpUeTFXY0RKeVVzaE5UY3hUeU14VHlFMHN5azR0eWN4THQ1ZFk0Mm1rS0NWZkRsZVdaSlNFcVl6TG5Vc05iRkppVWFwQ1NVYXFnb2xDU1dVQlVIVi1Hc1JjaEhuN2JZMmtwQ1NRNU1FR3dnM3k0bElCRzVSWnJBQzBJN1VpTWJjZ0p4V0xNVnNZamVTbFpNdWhTbEhNZ09uaUNvQ2FCWE9VdVVLQU9qWW5UUzAxVXBWU0xrZFZXcUNPNlRvQlJnQSIsImlkIjoiZmNfRzUzZVo4dVpITldYd2JrUHAtUGhnUU1fMSJ9",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBpcyBhbiBleGFtcGxlIG9mIEIyQiBtYXJrZXRpbmc%2FIiwibGsiOiJHaDEzYUdGMElHbHpJR0l5WWlCdFlYSnJaWFJwYm1jZ1pYaGhiWEJzWlEiLCJicyI6ImMtUHk0RklJejBnc1VVakpUeTFXY0RKeVVzaE5UY3hUeU14VHlFMHN5azR0eWN4THQ1ZFk0Mm1rS0NWZkRsZVdaSlNFcVl6TG5Vc05iRkppVWFwQ1NVYXFnb2xDU1dVQlVIVi1Hc1JjaEhuN2JZMmtwQ1NRNU1FR3dnM3k0bElCRzVSWnJBQzBJN1VpTWJjZ0p4V0xNVnNZamVTbFpNdWhTbEhNZ09uaUNvQ2FCWE9VdVVLQU9qWW5UUzAxVXBWU0xrZFZXcUNPNlRvQlJnQSIsImlkIjoiZmNfRzUzZVo4dVpITldYd2JrUHAtUGhnUU1fMSJ9"
+        },
+        {
+            "question": "What are the 7 P's of B2B marketing?",
+            "snippet": "The 7 P's of B2B Marketing represent a comprehensive framework comprising Product, Price, Place, Promotion, People, Process, and Physical Evidence.",
+            "title": "What are the 7 P's of B2B Marketing - Philomath Research",
+            "date": "28 Mar 2024",
+            "link": "https://www.philomathresearch.com/blog/2024/03/28/what-are-the-7-ps-of-b2b-marketing/#:~:text=The%207%20P's%20of%20B2B%20Marketing%20represent%20a%20comprehensive%20framework,%2C%20Process%2C%20and%20Physical%20Evidence.",
+            "displayed_link": "https://www.philomathresearch.com \u203a blog \u203a 2024/03/28",
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMW310UW6txGegEV9bIWrfHsoEL7Cn8WtZYy9xkhCGbQ&s",
+            "source_logo": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/5b886401e0e9ff83e4da76d52a8ac060d634aec3a9fa0a98cac6358912d69320.png",
+            "next_page_token": "eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDcgUCdzIG9mIEIyQiBtYXJrZXRpbmc/IiwibGsiOiJHaU4zYUdGMElHRnlaU0IwYUdVZ055QndKM01nYjJZZ1lqSmlJRzFoY210bGRHbHVadyIsImJzIjoiYy1QeTRGSUl6MGdzVVVqSlR5MVdjREp5VXNoTlRjeFR5TXhUeUUwc3lrNHR5Y3hMdDVkWTQybWtLQ1ZmRGxlV1pKU0VxWXpMblVzTmJGSmlVYXBDU1VhcWdvbENTV1VCVUhWLUdzUmNoSG43Ylkya3BDU1E1TUVHd2czeTRsSUJHNVJackFDMEk3VWlNYmNnSnhXTE1Wc1lqZVNsWk11aFNsSE1nT25pQ29DYUJYT1V1VUtBT2pZblRTMDFVcFZTTGtkVldxQ082VG9CUmdBIiwiaWQiOiJmY19HNTNlWjh1WkhOV1h3YmtQcC1QaGdRTV8xIn0=",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google_related_questions&google_domain=google.com&next_page_token=eyJvbnMiOiIxMDA0MSIsImZjIjoiRXFFQkNtSkJRUzFMVkdobE5HVlBjakZPYkdNeE5qTlhkR0ZXTTFKelpHMTRWVkZoVkUxVVNuaFVZVEJTUWtod1VqTTVTR0pMYTI5YWJrbEZlR0ZTYldOTmNFRjJMVkEyZEdZeGNqZFBlRU5STWtwaWR6UkNTak01VVVSNWNFVmhTbEY1TWpaQlVSSVhSelV6WlZvNGRWcElUbGRZZDJKclVIQXRVR2huVVUwYUlrRkRSRmhNTkc1VE1YWk9jVEpITFdjM1FteGxiVkJST0V0UlNXVTRRbEJhWVVFIiwiZmN2IjoiMyIsImVpIjoiRzUzZVo4dVpITldYd2JrUHAtUGhnUU0iLCJxYyI6IkNnMWlNbUlnYldGeWEyVjBhVzVuRUFCOWE3dzBQdyIsInF1ZXN0aW9uIjoiV2hhdCBhcmUgdGhlIDcgUCdzIG9mIEIyQiBtYXJrZXRpbmc%2FIiwibGsiOiJHaU4zYUdGMElHRnlaU0IwYUdVZ055QndKM01nYjJZZ1lqSmlJRzFoY210bGRHbHVadyIsImJzIjoiYy1QeTRGSUl6MGdzVVVqSlR5MVdjREp5VXNoTlRjeFR5TXhUeUUwc3lrNHR5Y3hMdDVkWTQybWtLQ1ZmRGxlV1pKU0VxWXpMblVzTmJGSmlVYXBDU1VhcWdvbENTV1VCVUhWLUdzUmNoSG43Ylkya3BDU1E1TUVHd2czeTRsSUJHNVJackFDMEk3VWlNYmNnSnhXTE1Wc1lqZVNsWk11aFNsSE1nT25pQ29DYUJYT1V1VUtBT2pZblRTMDFVcFZTTGtkVldxQ082VG9CUmdBIiwiaWQiOiJmY19HNTNlWjh1WkhOV1h3YmtQcC1QaGdRTV8xIn0%3D"
+        }
+    ],
+    "ai_overview": {
+        "text_blocks": [
+            {
+                "type": "paragraph",
+                "snippet": "B2B marketing, or business-to-business marketing, focuses on promoting products or services to other businesses, rather than end consumers, emphasizing building trust, addressing operational challenges, and driving measurable outcomes for companies.",
+                "snippet_highlighted_words": [
+                    "focuses on promoting products or services to other businesses, rather than end consumers, emphasizing building trust, addressing operational challenges, and driving measurable outcomes for companies"
+                ],
+                "reference_indexes": [
+                    1,
+                    8
+                ]
+            },
+            {
+                "type": "paragraph",
+                "snippet": "Here's a more detailed breakdown of B2B marketing:"
+            },
+            {
+                "type": "paragraph",
+                "snippet": "Key Characteristics:"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "title": "Target Audience:",
+                        "snippet": "B2B marketing targets decision-makers within other organizations, not individual consumers.",
+                        "reference_indexes": [
+                            1,
+                            2
+                        ]
+                    },
+                    {
+                        "title": "Focus:",
+                        "snippet": "It emphasizes building relationships, addressing business needs, and demonstrating value through ROI.",
+                        "reference_indexes": [
+                            0,
+                            8
+                        ]
+                    },
+                    {
+                        "title": "Marketing Channels:",
+                        "snippet": "B2B marketing utilizes various channels, including online marketing, physical marketing, paid social, search marketing, editorial content, email, video, events, and more.",
+                        "reference_indexes": [
+                            1
+                        ]
+                    },
+                    {
+                        "title": "Content:",
+                        "snippet": "B2B marketing content tends to be more informational and straightforward, focusing on the bottom-line impact of products or services.",
+                        "reference_indexes": [
+                            0
+                        ]
+                    },
+                    {
+                        "title": "Sales Cycle:",
+                        "snippet": "B2B sales cycles are often longer and involve multiple stakeholders in the buying process.",
+                        "reference_indexes": [
+                            0,
+                            4
+                        ]
+                    },
+                    {
+                        "title": "Examples:",
+                        "reference_indexes": [
+                            8
+                        ],
+                        "list": [
+                            {
+                                "snippet": "Car parts supplied to manufacturers",
+                                "reference_indexes": [
+                                    8
+                                ]
+                            },
+                            {
+                                "snippet": "Software solutions for enterprise operations",
+                                "reference_indexes": [
+                                    8
+                                ]
+                            },
+                            {
+                                "snippet": "Consulting services for business strategy",
+                                "reference_indexes": [
+                                    8
+                                ]
+                            },
+                            {
+                                "snippet": "SaaS subscriptions, security solutions, tools, accessories, and office supplies",
+                                "reference_indexes": [
+                                    0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "type": "paragraph",
+                "snippet": "B2B Marketing Strategies:"
+            },
+            {
+                "type": "list",
+                "list": [
+                    {
+                        "snippet": "Content Marketing: Creating valuable and informative content to attract and engage potential customers.",
+                        "reference_indexes": [
+                            0,
+                            8
+                        ]
+                    },
+                    {
+                        "snippet": "Email Marketing: Building relationships and nurturing leads through targeted email campaigns.",
+                        "reference_indexes": [
+                            5,
+                            8
+                        ]
+                    },
+                    {
+                        "snippet": "Social Media Marketing: Using platforms like LinkedIn to connect with industry professionals and build brand awareness.",
+                        "reference_indexes": [
+                            7
+                        ]
+                    },
+                    {
+                        "snippet": "Event Marketing: Participating in industry events and trade shows to network and generate leads.",
+                        "reference_indexes": [
+                            3,
+                            8
+                        ]
+                    },
+                    {
+                        "snippet": "Account-Based Marketing (ABM): Focusing on building relationships with specific high-value accounts.",
+                        "reference_indexes": [
+                            6,
+                            8
+                        ]
+                    },
+                    {
+                        "snippet": "Search Engine Optimization (SEO): Optimizing content and website for search engines to improve visibility.",
+                        "reference_indexes": [
+                            1
+                        ]
+                    },
+                    {
+                        "snippet": "Field Marketing: Promoting a product, service, or brand directly to consumers or businesses in a specific area or \"field\"",
+                        "reference_indexes": [
+                            9
+                        ]
+                    }
+                ]
+            }
+        ],
+        "references": [
+            {
+                "title": "What Is B2B Marketing: Definition, Strategy, and Trends - LinkedIn",
+                "link": "https://www.linkedin.com/business/marketing/blog/content-marketing/what-is-b2b-marketing-definition-strategy-and-trends#:~:text=As%20the%20name%20suggests%2C%20business,the%20B2B%20and%20B2C%20umbrellas.",
+                "snippet": "As the name suggests, business-to-business marketing refers to the marketing of products or services to other businesses and organ...",
+                "source": "LinkedIn",
+                "index": 0
+            },
+            {
+                "title": "What is B2B Marketing? Definition, Examples, Trends - Amazon Ads",
+                "link": "https://advertising.amazon.com/library/guides/b2b-marketing#:~:text=B2B%20marketing%2C%20or%20business%2Dto%2Dbusiness%20marketing%2C%20is,video%2C%20events%2C%20and%20more.",
+                "snippet": "B2B marketing, or business-to-business marketing, is the process through which a business informs other businesses about a product...",
+                "source": "Amazon Ads",
+                "index": 1
+            },
+            {
+                "title": "B2B Marketing Basics - Salesforce",
+                "link": "https://www.salesforce.com/eu/learning-centre/marketing/what-is-b2b-marketing/#:~:text=facts%20and%20FAQs-,What%20is%20B2B%20marketing?,targeted%20primarily%20at%20corporate%20customers.",
+                "snippet": "What is B2B marketing? Like B2C or \u201cconsumer\u201d marketing, B2B marketing is a business practice in which businesses market their pro...",
+                "source": "Salesforce",
+                "index": 2
+            },
+            {
+                "title": "B2B Marketing: Definition + Strategies - Coursera",
+                "link": "https://www.coursera.org/articles/b2b-marketing#:~:text=B2B%20event%20marketing,to%20your%20target%20B2B%20customers",
+                "snippet": "29 Nov 2023 \u2014 B2B event marketing Hosting, attending, and sponsoring events\u2014either in person or online\u2014can increase your brand's expo...",
+                "source": "Coursera",
+                "index": 3
+            },
+            {
+                "title": "What is B2B marketing - MarTech",
+                "link": "https://martech.org/why-we-care-about-b2b-marketing-a-guide-for-marketers/#:~:text=B2B%20marketing%20refers%20to%20the,little%20to%20no%20human%20interaction.",
+                "snippet": "21 May 2024 \u2014 B2B marketing refers to the marketing strategies employed by firms selling their products and services to other busines...",
+                "source": "MarTech",
+                "index": 4
+            },
+            {
+                "title": "B2B Marketing: Definition and Strategies | Coursera",
+                "link": "https://www.coursera.org/in/articles/b2b-marketing",
+                "snippet": "29 Nov 2023 \u2014 Business-to-business marketing, or B2B marketing, refers to a business promoting products and services to other compani...",
+                "source": "Coursera",
+                "index": 5
+            },
+            {
+                "title": "What Is B2B Marketing? Definition, Types, and Strategies - Salesforce",
+                "link": "https://www.salesforce.com/marketing/b2b-automation/b2b-marketing-guide/",
+                "snippet": "How can B2B businesses achieve success with account-based marketing? * Understand your buyers: Gather and use as much data as pos...",
+                "source": "Salesforce",
+                "index": 6
+            },
+            {
+                "title": "What Is B2B Marketing? Strategies and Trends (2024) - Shopify",
+                "link": "https://www.shopify.com/blog/b2b-marketing#:~:text=B2B%20social%20media%20marketing,to%20market%20their%20brands%20online.",
+                "snippet": "1 Mar 2024 \u2014 B2B social media marketing SMM is a digital marketing tactic that uses social media platforms to promote your products o...",
+                "source": "Shopify",
+                "index": 7
+            },
+            {
+                "title": "B2B marketing \u2014 strategies and guide - Adobe Experience Cloud",
+                "link": "https://business.adobe.com/blog/basics/what-is-b2b-marketing#:~:text=with%20Marketo%20Engage-,What%20is%20B2B%20marketing?,buyers%20at%20international%20industry%20expos.",
+                "snippet": "22 Jul 2022 \u2014 What is B2B marketing? B2B (business-to-business) marketing focuses on promoting products or services to other business...",
+                "source": "Adobe Experience Cloud",
+                "index": 8
+            },
+            {
+                "title": "B2B Field Marketing: a guide for beginners - LinkedIn",
+                "link": "https://www.linkedin.com/pulse/b2b-field-marketing-guide-beginners-nikhil-mirashi-mh0sf#:~:text=B2B%20field%20marketing%20is%20promoting,aligned%20with%20regional%20sales%20priorities.",
+                "snippet": "23 Jul 2024 \u2014 B2B field marketing is promoting a product, service, or brand directly to consumers or businesses in a specific area or...",
+                "source": "LinkedIn",
+                "index": 9
+            }
+        ]
+    },
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "What is B2B Marketing? Strategy Guide for 2025",
+            "link": "https://www.cognism.com/what-is-b2b-marketing",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.cognism.com/what-is-b2b-marketing&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECBkQAQ",
+            "displayed_link": "https://www.cognism.com \u203a what-is-b2b-marketing",
+            "thumbnail": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c591047673fe00b1f712909126b4b73c1ed6.png",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c5911e7f8e90afeb0eee47caba575bbea11f.png",
+            "snippet": "What is B2B marketing? Learn everything you need to know about business to business marketing in this guide including best practices & strategies!",
+            "snippet_highlighted_words": [
+                "Learn everything you need to know about business to business marketing"
+            ],
+            "source": "Cognism"
+        },
+        {
+            "position": 2,
+            "title": "What Is B2B Marketing: Definition, Strategy, and Trends",
+            "link": "https://www.linkedin.com/business/marketing/blog/content-marketing/what-is-b2b-marketing-definition-strategy-and-trends",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.linkedin.com/business/marketing/blog/content-marketing/what-is-b2b-marketing-definition-strategy-and-trends&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECBYQAQ",
+            "displayed_link": "https://www.linkedin.com \u203a blog \u203a content-marketing",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c591a92310d63026660c012f64a16854702f.png",
+            "snippet": "Business-to-business marketing refers to the marketing of products or services to other businesses and organizations.",
+            "snippet_highlighted_words": [
+                "Business-to-business marketing"
+            ],
+            "source": "LinkedIn"
+        },
+        {
+            "position": 3,
+            "title": "What is B2B Marketing? Definition, Examples, Trends",
+            "link": "https://advertising.amazon.com/library/guides/b2b-marketing",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://advertising.amazon.com/library/guides/b2b-marketing&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECF4QAQ",
+            "displayed_link": "https://advertising.amazon.com \u203a library \u203a guides \u203a b2b...",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c591e806ee7ad7c2a438bf1c2341762d8b36.png",
+            "snippet": "B2B marketing, or business-to-business marketing, refers to the process of one business informing another business about a product or service.",
+            "snippet_highlighted_words": [
+                "B2B marketing"
+            ],
+            "source": "Amazon Ads"
+        },
+        {
+            "position": 4,
+            "title": "B2B Marketing - Intelligence, data, events, training",
+            "link": "https://www.b2bmarketing.net/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.b2bmarketing.net/&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECFwQAQ",
+            "displayed_link": "https://www.b2bmarketing.net",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c5919f7f42ce712b80cb2bf548c8a4f61013.png",
+            "snippet": "B2B Marketing provides actionable intelligence, data, events and training to help marketers maximize business performance and realise their potential.",
+            "snippet_highlighted_words": [
+                "2B"
+            ],
+            "source": "b2bmarketing.net"
+        },
+        {
+            "position": 5,
+            "title": "10 Essential B2B Marketing Strategies to Grow Your ...",
+            "link": "https://hingemarketing.com/blog/story/10-essential-b2b-marketing-strategies-to-grow-your-professional-services-fi",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://hingemarketing.com/blog/story/10-essential-b2b-marketing-strategies-to-grow-your-professional-services-fi&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECFoQAQ",
+            "displayed_link": "https://hingemarketing.com \u203a Blog",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c59129097939d2b4f4bd0a2495501878b632.png",
+            "snippet": "30 Apr 2024 \u2014",
+            "source": "Hinge Marketing"
+        },
+        {
+            "position": 6,
+            "title": "How to Nail B2B Marketing in 2025 [+ Pro Tips, Tactics, & ...",
+            "link": "https://blog.hubspot.com/marketing/b2b-marketing",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://blog.hubspot.com/marketing/b2b-marketing&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECF0QAQ",
+            "displayed_link": "https://blog.hubspot.com \u203a marketing \u203a b2b-marketing",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c591db9790bd0429023d05e36ed7769938d9.png",
+            "snippet": "6 Feb 2025 \u2014",
+            "source": "HubSpot"
+        },
+        {
+            "position": 7,
+            "title": "B2B Marketing Basics",
+            "link": "https://www.salesforce.com/eu/learning-centre/marketing/what-is-b2b-marketing/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.salesforce.com/eu/learning-centre/marketing/what-is-b2b-marketing/&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECFgQAQ",
+            "displayed_link": "https://www.salesforce.com \u203a ... \u203a Marketing",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c591825954aa5897cbafcfa0464d44c75bdd.png",
+            "snippet": "B2B marketing is a business practice in which businesses market their products or services to potential buyers.",
+            "snippet_highlighted_words": [
+                "B2B marketing"
+            ],
+            "source": "Salesforce"
+        },
+        {
+            "position": 8,
+            "title": "B2B Marketing: Definition and Strategies",
+            "link": "https://www.coursera.org/in/articles/b2b-marketing",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.coursera.org/in/articles/b2b-marketing&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECFsQAQ",
+            "displayed_link": "https://www.coursera.org \u203a ... \u203a Business \u203a Marketing",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c59144188dcbcf5ca9a64bafc36c0b2c1316.png",
+            "snippet": "29 Nov 2023 \u2014",
+            "source": "Coursera"
+        },
+        {
+            "position": 9,
+            "title": "B2B Marketing: 10 Key Principles That Make It Unique",
+            "link": "https://www.b2binternational.com/publications/b2b-marketing/",
+            "redirect_link": "https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.b2binternational.com/publications/b2b-marketing/&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQFnoECFkQAQ",
+            "displayed_link": "https://www.b2binternational.com \u203a Publications",
+            "favicon": "https://serpapi.com/searches/67de9d1b9c0a8fca10059597/images/592695e06fd405078687093d4b56c59115ffcde1096b66d611a69cb464d32bb7.png",
+            "snippet": "As expert business-to-business marketers, we believe that there are ten key factors that make B2B markets special and different to consumer markets.",
+            "snippet_highlighted_words": [
+                "ten key factors that make B2B markets special"
+            ],
+            "source": "B2B International"
+        }
+    ],
+    "top_stories_link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&udm=7&q=b2b+marketing&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8ccDKAJ6BAh0EAQ",
+    "top_stories_serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing",
+    "related_searches": [
+        {
+            "block_position": 1,
+            "query": "B2b marketing examples",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2b+marketing+examples&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAh1EAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2b+marketing+examples"
+        },
+        {
+            "block_position": 1,
+            "query": "B2B marketing strategy",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2B+marketing+strategy&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhxEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2B+marketing+strategy"
+        },
+        {
+            "block_position": 1,
+            "query": "B2B marketing vs B2C",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2B+marketing+vs+B2C&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhtEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2B+marketing+vs+B2C"
+        },
+        {
+            "block_position": 1,
+            "query": "B2B marketing course",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2B+marketing+course&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhhEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2B+marketing+course"
+        },
+        {
+            "block_position": 1,
+            "query": "what is b2b marketing - definition & examples",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=what+is+b2b+marketing+-+definition+%26+examples&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhgEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=what+is+b2b+marketing+-+definition+%26+examples"
+        },
+        {
+            "block_position": 1,
+            "query": "B2B Marketing jobs",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2B+Marketing+jobs&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhfEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2B+Marketing+jobs"
+        },
+        {
+            "block_position": 1,
+            "query": "B2B marketing agency",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2B+marketing+agency&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhXEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2B+marketing+agency"
+        },
+        {
+            "block_position": 1,
+            "query": "B2B marketing channels",
+            "link": "https://www.google.com/search?sca_esv=60c3c609de97c445&gl=in&q=B2B+marketing+channels&sa=X&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ1QJ6BAhWEAE",
+            "serpapi_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=B2B+marketing+channels"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=10&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8NMDegQICRAW",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=10&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAE",
+            "3": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=20&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAG",
+            "4": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=30&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAI",
+            "5": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=40&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAK",
+            "6": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=50&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAM",
+            "7": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=60&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAO",
+            "8": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=70&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAQ",
+            "9": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=80&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAS",
+            "10": "https://www.google.com/search?q=b2b+marketing&sca_esv=60c3c609de97c445&gl=in&ei=G53eZ8uZHNWXwbkPp-PhgQM&start=90&sa=N&sstk=Af40H4XHqC4RkfCC-CqKpm4iaLs60cmZel8akSmxskaTl47gZILjPg9Dcdt1ntMMAoBMhJL1BdDs-ZU4mmJooATkn5FmtcAoktibBA&ved=2ahUKEwiLk5GGyZ2MAxXVSzABHadxODAQ8tMDegQICRAU"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=10",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=20",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=30",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=40",
+            "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=50",
+            "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=60",
+            "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=70",
+            "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=80",
+            "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=in&google_domain=google.com&q=b2b+marketing&start=90"
+        }
+    }
+}

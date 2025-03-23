@@ -1,0 +1,28 @@
+{
+    "Influencer": {
+        "<insta handle>": {
+            "name": "<name>",
+            "bio": "<bio>",
+            "followers": "<followers>",
+            "following": "<following>",
+            "posts": "<posts>",
+            "photo": "<photo>",
+            "link": "<link>",
+            "email": "<email>",
+            "budget_min": "<budget_min>",
+            "budget_max": "<budget_max>"
+        },
+        "<insta handle 2>": {
+            "name": "<name>",
+            "bio": "<bio>",
+            "followers": "<followers>",
+            "following": "<following>",
+            "posts": "<posts>",
+            "photo": "<photo>",
+            "link": "<link>",
+            "email": "<email>",
+            "budget_min": "<budget_min>",
+            "budget_max": "<budget_max>"
+        }
+    }
+}
