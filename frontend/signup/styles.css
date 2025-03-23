@@ -14,11 +14,13 @@ body {
 /* Container */
 .container {
     width: 100%;
-    max-width: 400px;
+    max-width: 600px;
+    
 }
 
 /* Form Box */
 .form-box {
+    margin: 50px;
     background: #222;
     padding: 20px;
     border-radius: 15px;

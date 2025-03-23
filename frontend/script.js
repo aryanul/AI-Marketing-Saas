@@ -6,3 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         navLinks.classList.toggle("active");
     });
 });
+
+document.getElementById("getStartedBtn").addEventListener("click", function() {
+    window.location.href = "/signup";
+});
