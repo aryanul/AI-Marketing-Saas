@@ -11,25 +11,26 @@ body {
     padding: 20px;
 }
 
-/* Container */
+/* Center the container */
 .container {
     width: 100%;
     max-width: 600px;
-    
+    display: flex;
+    justify-content: center;
 }
 
-/* Form Box */
+/* Floating Effect for Form Box */
 .form-box {
-    margin: 50px;
     background: #222;
-    padding: 20px;
+    padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
+    width: 100%;
 }
 
 /* Input Group */
 .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 /* Labels */
@@ -48,6 +49,7 @@ input, select, textarea {
     background: #333;
     color: #fff;
     font-size: 14px;
+    box-sizing: border-box; /* Ensures uniform padding */
 }
 
 /* Select Fields */
@@ -59,7 +61,7 @@ select {
 /* Textarea */
 textarea {
     resize: none;
-    height: 80px;
+    height: 100px;
 }
 
 /* Button */
@@ -86,21 +88,22 @@ textarea {
     font-size: 14px;
 }
 
-/* 🔹 Mobile Responsive Fix */
+/* Mobile Responsiveness */
 @media (max-width: 600px) {
     body {
         height: auto;
         padding: 30px 10px;
         align-items: flex-start;
     }
-    
+
     .container {
         width: 100%;
         max-width: 100%;
+        justify-content: center;
     }
 
     .form-box {
-        padding: 15px;
+        padding: 20px;
     }
 
     input, select, textarea {

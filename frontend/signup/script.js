@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
         };
 
         try {
-            const response = await fetch("https://rzxdgzgt-8000.inc1.devtunnels.ms/register", {
+            const response = await fetch("https://ai-marketing-saas.onrender.com/register", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -28,8 +28,11 @@ document.addEventListener("DOMContentLoaded", function () {
             const data = await response.json();
 
             if (response.ok) {
-                alert("Signup successful! Redirecting to login...");
-                window.location.href = "/login";
+                // Save the user ID in local storage
+                localStorage.setItem("userId", data.id);
+                
+                // alert("Signup successful! Redirecting to login...");
+                window.location.href = "/dashboard";
             } else {
                 alert("Signup failed: " + data.message);
             }

@@ -1,64 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-</head>
-<body>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1>Marketing Analytics Dashboard</h1>
+      <button id="logout-btn" class="logout-btn">LogOut</button>
+      <button id="addProductBtn" class="add-product-btn">➕ Add Product</button>
+    </nav>
+    <!-- Add Product Modal -->
+    <div id="addProductModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Add New Product</h2>
+        <form id="addProductForm">
+          <label for="product_name">Product Name</label>
+          <input type="text" id="product_name" name="product_name" required />
+
+          <label for="description">Description</label>
+          <textarea id="description" name="description" required></textarea>
+
+          <label for="category">Category</label>
+<select id="category" name="category" required>
+    <option value="" disabled selected>Select a category</option>
+    <option value="E-commerce">E-commerce</option>
+    <option value="Technology">Technology</option>
+    <option value="Fashion">Fashion</option>
+    <option value="Health & Beauty">Health & Beauty</option>
+    <option value="Automobile">Automobile</option>
+    <option value="Finance">Finance</option>
+    <option value="Education">Education</option>
+    <option value="Entertainment">Entertainment</option>
+    <option value="Food & Beverage">Food & Beverage</option>
+    <option value="Home & Living">Home & Living</option>
+</select>
+
+          <label for="budget">Budget</label>
+          <input type="number" id="budget" name="budget" required />
+
+          <button type="submit" class="submit-btn" >Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Main Dashboard Container -->
     <div class="dashboard-container">
-        <!-- Sidebar -->
-        <aside class="sidebar">
-            <div class="logo">CORE PANEL</div>
-            <ul class="menu">
-                <li class="active">Dashboard</li>
-                <li>Products</li>
-                <li>Clients</li>
-                <li>Analytics</li>
-                <li>Messages</li>
-                <li>Settings</li>
-            </ul>
-            <button class="upgrade-btn">Upgrade Now</button>
-        </aside>
+      <!-- Company Info & Keyword Difficulty -->
+      <div class="company-info">
+        <div class="company-details">
+          <h2 id="company-name"></h2>
+          <p id="company-website"></p>
+        </div>
+        <div class="keyword-difficulty">
+          <p>Keyword Difficulty</p>
+          <div class="circle-progress"><span id="keyword-score">0</span>%</div>
+        </div>
+      </div>
+<div class="stats">
+      <!-- SEO Score Line Chart -->
+<canvas id="seoScoreChart"></canvas>
 
-        <!-- Main Content -->
-        <main class="main-content">
-            <header class="header">
-                <h2>Hello Olivia, Welcome back!</h2>
-                <div class="profile">
-                    <span>My Account</span>
-                    <img src="profile.jpg" alt="User">
-                </div>
-            </header>
+<!-- Word Count & Link Count Progress Bars -->
+<div class="progress-bars">
+    <div class="progress-item">
+        <p>Word Count</p>
+        <div class="progress-bar"><div id="word-count"></div></div>
+        <span id="word-value">0</span>
+    </div>
+    <div class="progress-item">
+        <p>Link Count</p>
+        <div class="progress-bar"><div id="link-count"></div></div>
+        <span id="link-value">0</span>
+    </div>
+</div>
+</div>
 
-            <!-- Stats Overview -->
-            <section class="stats-grid">
-                <div class="stat-card">
-                    <h3>Total Revenue</h3>
-                    <p>$52,000</p>
-                    <span class="green-text">+8.33% from last week</span>
-                </div>
-                <div class="stat-card">
-                    <h3>Conversion Rate</h3>
-                    <p>3.5%</p>
-                    <span class="green-text">+16.67% from last week</span>
-                </div>
-                <div class="stat-card">
-                    <h3>Subscribers</h3>
-                    <p>650</p>
-                    <span class="green-text">+12% from last week</span>
-                </div>
-            </section>
+      <!-- Products Section -->
+      <h2>Products</h2>
+      <div class="products-container" id="products-container"></div>
 
-            <!-- Charts -->
-            <section class="charts">
-                <canvas id="revenueChart"></canvas>
-            </section>
-        </main>
+      <!-- Chart for Budget Comparison -->
+      <canvas id="budgetChart"></canvas>
     </div>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

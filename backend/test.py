@@ -12,6 +12,19 @@ import dotenv
 
 
 
+def extract_json(response):
+    """Extract JSON content safely from AI response using regex"""
+    json_pattern = r"\{.*\}"  # Regex pattern to find JSON object
+    match = re.search(json_pattern, response, re.DOTALL)  # Search for JSON in response
+
+    if match:
+        json_content = match.group(0)  # Extract matched JSON string
+        try:
+            return json.loads(json_content)  # Convert JSON string to dictionary
+        except json.JSONDecodeError:
+            return {}  # Return an empty dictionary instead of a raw string
+
+    return {}  # Return empty dictionary if no JSON found
 dotenv.load_dotenv()
 
 # Get API keys from environment variables
@@ -151,19 +164,6 @@ def ask_gemini(prompt):
     
 
 
-def extract_json(response):
-    """Extract JSON content safely from AI response using regex"""
-    json_pattern = r"\{.*\}"  # Regex pattern to find JSON object
-    match = re.search(json_pattern, response, re.DOTALL)  # Search for JSON in response
-
-    if match:
-        json_content = match.group(0)  # Extract matched JSON string
-        try:
-            return json.loads(json_content)  # Convert JSON string to dictionary
-        except json.JSONDecodeError:
-            return json_content  # Return as raw JSON string if parsing fails
-    return response  # Return raw response if no JSON found
-
 def get_gpt_response(product):
     """Generate a social media strategy for a product using Gemini AI"""
 
@@ -174,6 +174,7 @@ def get_gpt_response(product):
         f"Give the response in JSON format: {{ 'reel_idea': 'your idea here' }}"
     )
     reel_idea = extract_json(ask_gemini(prompt_idea))
+    reel_idea = reel_idea if isinstance(reel_idea, dict) else {}
 
     # 2️⃣ Get 5-10 hashtags
     prompt_hashtags = (
@@ -181,6 +182,7 @@ def get_gpt_response(product):
         f"Give the response in JSON format: {{ 'hashtags': ['#hashtag1', '#hashtag2'] }}"
     )
     hashtags = extract_json(ask_gemini(prompt_hashtags))
+    hashtags = hashtags if isinstance(hashtags, dict) else {}
 
     # 3️⃣ Get product keywords
     prompt_keywords = (
@@ -188,16 +190,18 @@ def get_gpt_response(product):
         f"Give the response in JSON format: {{ 'keywords': ['keyword1', 'keyword2'] }}"
     )
     keywords = extract_json(ask_gemini(prompt_keywords))
+    keywords = keywords if isinstance(keywords, dict) else {}
 
     # Combine the results
     final_response = {
         "product": product,
-        "reel_idea": reel_idea.get("reel_idea", reel_idea),
-        "hashtags": hashtags.get("hashtags", hashtags),
-        "keywords": keywords.get("keywords", keywords),
+        "reel_idea": reel_idea.get("reel_idea", ""),
+        "hashtags": hashtags.get("hashtags", []),
+        "keywords": keywords.get("keywords", []),
     }
 
     return final_response
+
 
 
 # Load influencer data from JSON file
