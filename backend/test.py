@@ -12,6 +12,19 @@ import dotenv
 
 
 
+def extract_json(response):
+    """Extract JSON content safely from AI response using regex"""
+    json_pattern = r"\{.*\}"  # Regex pattern to find JSON object
+    match = re.search(json_pattern, response, re.DOTALL)  # Search for JSON in response
+
+    if match:
+        json_content = match.group(0)  # Extract matched JSON string
+        try:
+            return json.loads(json_content)  # Convert JSON string to dictionary
+        except json.JSONDecodeError:
+            return {}  # Return an empty dictionary instead of a raw string
+
+    return {}  # Return empty dictionary if no JSON found
 dotenv.load_dotenv()
 
 # Get API keys from environment variables
