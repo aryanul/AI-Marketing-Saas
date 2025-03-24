@@ -31,8 +31,8 @@ document.addEventListener("DOMContentLoaded", function () {
                 // Save the user ID in local storage
                 localStorage.setItem("userId", data.id);
                 
-                alert("Signup successful! Redirecting to login...");
-                window.location.href = "/login";
+                // alert("Signup successful! Redirecting to login...");
+                window.location.href = "/dashboard";
             } else {
                 alert("Signup failed: " + data.message);
             }

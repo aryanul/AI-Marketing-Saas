@@ -199,3 +199,13 @@ select:focus {
     justify-content: center;
     gap: 300px;
 }
+
+.logout-btn {
+    background: #007bff;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 700px;
+}

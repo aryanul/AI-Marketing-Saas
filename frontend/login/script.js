@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const data = await response.json();
 
             if (response.ok) {
-                alert("Login successful!");
+                // alert("Login successful!");
 
                 // Store email and token in local storage
                 localStorage.setItem("userId", data.email);

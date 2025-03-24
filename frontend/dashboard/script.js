@@ -85,6 +85,15 @@ function fetchProducts(uid) {
             renderBudgetChart(data.products);
         });
 }
+function clearLocalStorage() {
+    localStorage.clear(); // Clears all local storage data
+    // alert("Local storage has been cleared!");
+    window.location.href = "/"; // Reload the page to reflect changes
+}
+
+// Attach to a button click
+document.getElementById("logout-btn").addEventListener("click", clearLocalStorage);
+
 
 // Display Products
 function displayProducts(products) {
