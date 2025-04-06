@@ -215,7 +215,7 @@ GET /get-products/{uid}
 ---
 
 ## **🌟 Contributors**  
-👨‍💻 **Khandakar Aryanul Haque** (Techno India University) 
+👨‍💻 **Khandakar Aryanul Haque** (Techno India University)   
 👨‍💻 **Jeet Ghosh** (Bengal Institute of Technology)
 
 ---
